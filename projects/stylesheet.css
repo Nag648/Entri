@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.container div {
+  color: aliceblue;
+  margin: 30px;
+  padding: 40px;
+}
+.box1 {
+  background-color: blue;
+  display: flex;
+}
+.box2 {
+  background-color: rgb(248, 37, 9);
+}
+.box3 {
+  background-color: rgba(250, 12, 198, 0.918);
+}
+.box4 {
+  background-color: rgba(30, 247, 10, 0.897);
+}
