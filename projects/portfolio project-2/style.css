@@ -1,0 +1,81 @@
+body{
+    background-image: url("007\ \(7\).jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.navbar-left {
+    padding-left: 5;
+
+}
+.dream {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    color: rgb(247, 8, 227);
+}
+.navbar-right {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+
+}
+.a-element {
+    padding: 5spx;
+    margin: 5px;
+    border: 1px solid rgb(250, 247, 71);
+    float:left;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.a-element:hover{
+    background-color: #58eee1;
+    color: black;
+}
+.a-element :active{
+    background-color: aquamarine;
+    color: black;
+}
+.home {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-left {
+    padding: 6px;
+    
+    
+    
+}
+.sri {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size:35px ;
+    color: greenyellow;
+}
+.para{
+    font-size: 20px;
+    font-family:  Tahoma, sans-serif;
+    color: brown;
+}
+.home-right {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
