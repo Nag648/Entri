@@ -1,0 +1,143 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(1112.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    width:120px ;
+    height: 70px;
+    background-image: url('foodlogo.jpg.jpg');
+    background-size: cover;
+}
+.top{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;    
+}
+li{
+    margin:0px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+}
+li:hover{
+    color: rgb(248, 232, 10);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.addcart_loginbutton{
+background-color:#fff;
+width: 170px;
+height: 40px;
+position: relative;
+right: -320px; 
+margin-top: 10px;
+border-radius: 50px;
+display: flex;
+justify-content: center; 
+align-items: center;  
+}
+.login{
+background-color: green;
+color: #fff;
+padding: 5px 20px;
+border-radius: 20px;
+margin-left: 20px;
+}
+.login:hover{
+    background-color: rgb(11, 219, 28);
+     
+}
+i:hover{
+color:green ;
+}
+.heading{
+  height: 80%; 
+  
+  align-items: center;
+  color: #2226f0; 
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: rgb(17, 88, 243);
+    margin-left: 600px;
+    margin-bottom : 80px;
+    margin-top: 80px;
+
+}
+
+.line1,.line2{
+    
+ height: 100px;
+ width: 2px; 
+ border-radius: 10px;
+
+}
+.fa-brands {
+    margin-right: 20px;
+}
+.content{
+    margin-left: 100px;
+    padding-top: 80px;
+    align-items: center;
+}
+p:nth-child(1){
+  background-color: black;
+  color: #fff;
+  display: inline;  
+  padding:5px 10px ;
+  font-size: 18px ;
+  letter-spacing: 1px;
+}
+h2{
+    font-family: 'Source Code Pro', monospace; 
+       font-size:35px ;
+    color: rgb(34, 10, 250); 
+}
+.foodplace{
+  font-family: 'source code pro',monospace; 
+  font-size: 25px; 
+  font-weight: 900px;
+}
+p:nth-child(4){
+    width:400px ;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: hsl(59, 100%, 52%);
+    
+
+}
+button{
+    width:170px ;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: rgb(11, 219, 28);
+}
