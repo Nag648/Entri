@@ -12,10 +12,10 @@ const maltiply = nums.map((num, i, arr) =>{
 console.log(maltiply);
                   
                  //filter()//
-const num1 = ["raju","raghu","sri","lakshmi"];
+const num1 = ["raju","raghu","sree","lakshmi"];
 
 const str = num1.filter((String) =>{
-    return String > "sri";
+    return String > "sree";
 });
 console.log(num1);
 
